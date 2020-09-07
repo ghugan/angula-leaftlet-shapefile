@@ -1,0 +1,11 @@
+<div class="form-group float-right ">
+	<div class="d-inline upload ">
+		<label class="mr-1" for="file">Choose File</label>
+		<input #fileInput type="file" id="file"></div>
+
+	<button class="btn btn-primary" (click)="submit(fileInput.files)">Upload </button>
+	<br>
+	<span id="warning"></span>
+
+</div>
+<div id="map"></div>
